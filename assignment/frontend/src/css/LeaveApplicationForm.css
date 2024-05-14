@@ -1,0 +1,60 @@
+/* LeaveApplicationForm.css */
+
+.leave-application-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-top: 150px;
+    box-shadow: 1px 1px 10px rgba(1,1, 1, 0.5);
+  }
+  
+  .leave-application-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .leave-application-container form div {
+    margin-bottom: 15px;
+  }
+  
+  .leave-application-container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .leave-application-container input[type="text"],
+  .leave-application-container input[type="date"],
+  .leave-application-container textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  .leave-application-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(1,1, 1, 0.5);
+  }
+  
+  .leave-application-container button:hover {
+    background-color: #0056b3;
+ 
+  }
+  
+  @media screen and (max-width:600px){
+    .leave-application-container{
+        max-width: 90%;
+        margin-top: 50px;
+    }
+  }
+  
